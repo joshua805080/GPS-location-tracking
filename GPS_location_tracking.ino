@@ -3,11 +3,11 @@
 #include <ThingerESP8266.h>
 #include <TimeLib.h> // Include TimeLib for time manipulation
 
-#define USERNAME "joshua805080"
-#define DEVICE_ID "ESP8266_location_tracker"
-#define DEVICE_CREDENTIAL "_3PI8Hlu&DzRF-L7"
-#define SSID "iQOO_Z3_5G"
-#define SSID_PASSWORD "nethaksko"
+#define USERNAME "your_thinger_username"
+#define DEVICE_ID "_your_thinger_device_ID"
+#define DEVICE_CREDENTIAL your_thinger_device_credential"
+#define SSID "WiFi_SSID"
+#define SSID_PASSWORD "WiFi_password"
 
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
